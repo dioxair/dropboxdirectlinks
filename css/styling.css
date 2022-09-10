@@ -10,6 +10,33 @@ body {
 h1 {
     font-weight: 500;
 }
+    
+button {
+    margin-top: 25px;
+    font-family: Outfit;
+    cursor: pointer;
+    border-color: peachpuff;
+    align-items: center;
+    background: #303030;
+    font-size: 2.5rem;
+    color: peachpuff;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.05rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.05rem 0.175rem;
+    height: 100%;
+    width: 35%;
+    border-radius: 7px;
+    transition: all 500ms;
+    overflow: hidden;
+}
+
+button:hover {
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-2px) scale(1.06);
+}
+
+button:focus {
+    box-shadow: peachpuff 0px 0.175em 1em, peachpuff 0px 0.175em 1em;
+    transform: translateY(5px) scale(1.06);
+}
 
 .inputBox {
     margin-bottom: 25px;
