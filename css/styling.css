@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    font-family: Outfit;
+    background-color: #221b1b;
+    color: peachpuff;
+    text-align: center;
+}
