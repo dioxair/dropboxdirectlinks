@@ -3,7 +3,9 @@ const directLink = document.getElementById("directLink");
 
 function ConvertToDirectLink() {
     if (userInput.value !== "") {
-        directLink.textContent = userInput.value.replace(/dropbox/g, "dl.dropboxusercontent")
-        directLink.href = directLink.textContent;
+        if (userInput.value.includes("dropbox")) {
+            directLink.textContent = userInput.value.replace(/dropbox/g, "dl.dropboxusercontent")
+            directLink.href = directLink.textContent;
+        }
     }
 }
