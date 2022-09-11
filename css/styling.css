@@ -79,6 +79,13 @@ input {
     font-size: 25px;
 }
 
+@media screen and (min-width: 300px) {
+    #directLink {
+        font-size: 17px;
+        overflow-wrap: break-word;
+    }
+}
+
 a {
     color: peachpuff;
 }
