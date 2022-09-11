@@ -18,14 +18,21 @@ button {
     border-color: peachpuff;
     align-items: center;
     background: #303030;
-    font-size: 25px;
+    font-size: 35px;
     color: peachpuff;
     box-shadow: rgba(3, 8, 20, 0.1) 0px 0.05rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.05rem 0.175rem;
     height: 100%;
-    width: 50%;
+    width: 35%;
     border-radius: 7px;
     transition: all 500ms;
     overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+    button {
+        font-size: 25px;
+        width: 50%;
+    }
 }
 
 button:hover {
@@ -79,7 +86,7 @@ input {
     font-size: 25px;
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (max-width: 767px) {
     #directLink {
         font-size: 17px;
         overflow-wrap: break-word;
