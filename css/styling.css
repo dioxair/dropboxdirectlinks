@@ -75,6 +75,14 @@ input {
     transform: translateY(5px) scale(1.06);
 }
 
+#directLink {
+    font-size: 25px;
+}
+
+a {
+    color: peachpuff;
+}
+
 .credit {
     position: relative
 }
