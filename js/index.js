@@ -9,3 +9,14 @@ function ConvertToDirectLink() {
         }
     }
 }
+
+function CopyToClipboard() {
+    if (userInput.value !== "") {
+        if (userInput.value.includes("dropbox")) {
+            const copyText = document.getElementById("directLink").textContent;
+            navigator.clipboard.writeText(copyText).then(() => {
+                alert("Copied to clipboard!");
+            });
+        }
+    }
+}
